@@ -40,6 +40,16 @@
     a.link { color: inherit; text-decoration: none; }
     a.link:hover { text-decoration: underline; }
 
+    .post-title{font-size: 1.60rem;
+            font-weight: 600;}
+
+  .post-date{
+  margin-left: 10px;
+  font-size: 0.95rem;
+  opacity: 0.65;
+  white-space: nowrap;
+  }
+
     @media (max-width: 480px) {
       main { padding: 22px 14px; }
     }
@@ -53,11 +63,14 @@
     </div>
 
     <ul>
-      <li><a class="link" href="w/untitled,2026-02-26.html">untitled, 2026-02-26</a></li>
-
+      <li>
+        <a class="link" href="w/untitled,2026-02-26.html">
+        <span class="post-title">untitled</span>
+        <span class="post-date">2026-02-26</span>
+        </a>
+      </li>
 
       <!-- Add more posts below -->
-      <!-- <li><a class="link" href="w/2026-02-28-01.html">2026-02-28 — Title</a></li> -->
     </ul>
   </main>
 </body>
